@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #ae00ff, #ff00d9);
+}
+
+button{
+  padding: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  border: 1px solid rgb(230, 230, 230);
+  outline: none;
+  background-color: rgba(255, 255, 255, .75);
+  outline: none;
+}
+
+input[type="text"] {
+  padding:10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.calci{
+  margin: 160px;
+  justify-content: center;
+}
+
+.calci .but{
+  border: 1px;
+  margin-top: 3px;
+}
+
+.calci .head{
+  color: #3a0539;
+  margin: 8px;
+}
+
+input[type="text"] {
+  padding:10px;
+  margin: 6px;
+  border-radius: 1px;
+  border-color: #f7f0f7;
+}
